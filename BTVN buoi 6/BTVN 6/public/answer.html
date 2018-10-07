@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Đáp gọn</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/ask">Hỏi nhanh</a></li>
+			<li><a href="/answer">Đáp gọn</a></li>
+		</ul>
+	</nav>
+	<div>
+		<h1 id="questionContent"></h1>
+		<button class="answer_btn" data-questionid="" data-answer="yes">Đúng/Có/Phải</button>
+		<button class="answer_btn" data-questionid="" data-answer="no">Sai/Không/Trái</button>
+		<button id="otherQuestion">Xem câu hỏi khác</button>
+		<button id="voteResult">Xem kết quả</button>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="/main.js"></script>
+</body>
+</html>
