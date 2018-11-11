@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đáp gọn</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a= href="/ask"></a></li>
+            <li><a= href="/answer"></a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1>hỏi 1 câu </h1>
+        <form action="/createquestion" method="POST">
+            <textarea name ="questionContent" id="questionContent" cols="30" rows="10"></textarea>
+            <span>còn 200 kí tự</span>
+       <!-- <input type="submit" value="Gửi"> -->
+            <button type="submit">Gửi</button>
+        </form>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
